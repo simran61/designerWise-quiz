@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran | quiz</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="quizQues.css">
+    <link rel="stylesheet" href="showAns.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav bar starts -->
+    <nav class="nav">
+        <a href="../index.html" class="logo"><img src="../assests/logofinal.png" alt=""></a>
+        <div class="show_flex">
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search a quiz">
+                <i class="icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="../profilePage/profilePage.html"><img class="user" src="../assests/profile.jpeg" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- section starts -->
+    <section class="header">
+
+        <!-- SIDE NAV STARTS -->
+        <div class="side_nav">
+            <ul class="nav_list">
+                <li><a href="../index.html" class="list_item"><i class="icon mr_sm fa-solid fa-house"></i>Home</a></li>
+                <li><a href="../index.html#discover_quizes" class="list_item"><i class="icon mr_sm fa-brands fa-wpexplorer"></i>Discover</a></li>
+                <li class="active"><a href="#" class="list_item"><i
+                            class="icon mr_sm fa-solid fa-chalkboard"></i>Quizes</a></li>
+                <li><a href="../leaderBoard/leaderBoard.html" class="list_item"><i
+                            class="icon mr_sm fa-solid fa-chart-column"></i>Leader Board</a></li>
+                <li><a href="../profilePage/profilePage.html" class="list_item"><i
+                            class="icon mr_sm fa-regular fa-user"></i>Profile</a></li>
+            </ul>
+            <div class="social_icons">
+                <a class="side_nav_icon" target="_blank" href="https://github.com/simran61"><i
+                        class="fab fa-github-alt"></i></a>
+                <a class="side_nav_icon" target="_blank"
+                    href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="side_nav_icon" target="_blank" href="https://www.instagram.com/simran_wb65/"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="side_nav_icon" target="_blank" style="margin-bottom: 0px;"
+                    href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="main_content">
+            <div class="ques_option_container">
+                <div class="quiz_info">
+                    <div class="show_flex align_center">
+                        <img src="../assests/time.png" alt="time" class="time_img mr_sm">
+                        <p class="size_md">00:13</p>
+                    </div>
+                    <div class="show_flex align_center">
+                        <img src="../assests/score.png" alt="score" class="present_score_img mr_sm">
+                        <p class="size_md">-10 points</p>
+                    </div>
+                </div>
+
+                <div class="ques_container show_flex">
+                    <h1 class="ques_number">1/5</h1>
+                    <h2 class="ques">Which modern American Icon turned his sketches into an animated and theme park empire?
+                        </h2>
+                </div>
+
+                <div class="quiz_options">
+                    <div class="option hoverNone">
+                        <input type="radio" id="margotDisney" name="quesOne" value="margotDisney">
+                        <label for="margotDisney">Margot Disney</label>
+                    </div>
+
+                    <div class="option right hoverRight">
+                        <input type="radio" id="waltDisney" name="quesOne" value="waltDisney">
+                        <label for="waltDisney">Walt Disney</label>
+                    </div>
+
+                    <div class="option wrong hoverWrong">
+                        <input type="radio" id="royDisney" name="quesOne" value="royDisney">
+                        <label for="royDisney">Roy Disney</label>
+                    </div>
+
+                    <div class="option hoverNone">
+                        <input type="radio" id="maddoxDisney" name="quesOne" value="maddoxDisney">
+                        <label for="maddoxDisney">Maddox Disney</label>
+                    </div>
+                </div>
+
+                <div class="ques_btns">
+                    <a href="../rules/rules.html"><button class="btn btn_primary"><i class="fa-solid fa-arrow-left-long"></i> Previous</button></a>
+                    <a href="quizQues2.html"><button class="btn btn_primary">Next <i class="fa-solid fa-arrow-right-long"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
