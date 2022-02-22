@@ -19,7 +19,7 @@
 }
 
 .topper_icon{
-    height: 100px;
+    height: 6.25rem;
     position: absolute;
     top: -1.5rem;
     right: -1.4rem;
@@ -27,7 +27,7 @@
 
 .rank_card{
     flex-basis: 30%;
-    color: rgb(46, 46, 46);
+    color: var(--dull-black);
     padding: 1rem;
     border-radius: 1rem;
     box-sizing: border-box;
@@ -37,7 +37,7 @@
 
 .rank_card:hover{
     transition: 0.5s;
-    box-shadow: 8px 8px 10px #888888;
+    box-shadow: 8px 8px 10px var(--shadow-color);
 }
 
 .rank1{
@@ -57,8 +57,8 @@
 }
 
 .rank_profile_img{
-    height: 90px;
-    width: 90px;
+    height: 5.625rem;
+    width: 5.625rem;
     object-fit: cover;
     border-radius: 100%;
 }
@@ -73,7 +73,7 @@
 }
 
 .show_status{
-    border-top: 1px solid rgb(131, 130, 130);
+    border-top: 1px solid var(--default-grey);
     padding-top: 0.7rem;
     flex-basis: 100%;
     justify-content: space-between;
@@ -82,7 +82,7 @@
 .status_info{
     align-items: center;
     margin-left: 1.5rem;
-    color: rgb(61, 61, 61);
+    color: var(--dark-grey);
 }
 
 .profile_score_icon{
@@ -106,7 +106,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(180, 204, 243, 0.548);
+    background-color: var(--low-opacity-primary);
     border-radius: 1rem;
     padding: 0.7rem 1rem;
     margin-top: 1.5rem;
@@ -115,7 +115,7 @@
 .user_rank{
     font-size: 2rem;
     padding-top: 0.7rem;
-    color: rgb(61, 61, 61);
+    color: var(--dark-grey);
 }
 
 .low_rank_user_info{
@@ -123,8 +123,8 @@
 }
 
 .low_rank_img{
-    height: 60px;
-    width: 60px;
+    height: 3.75rem;
+    width: 3.75rem;
     border-radius: 100%;
     margin: 0 1rem;
     object-fit: cover;
@@ -134,6 +134,6 @@
     padding: 0 2rem;
     height: 2.5rem;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
 }
 

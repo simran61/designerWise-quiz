@@ -36,7 +36,7 @@
     padding: 1rem;
     border-radius: 1rem;
     align-items: center;
-    color: white;
+    color: var(--white-color);
     background-color: #0093E9;
     background-image: linear-gradient(270deg, #0093E9 0%, #82efe2 100%);
 }
@@ -68,7 +68,7 @@
 }
 
 .option:hover{
-    background-color: rgb(180, 204, 243);
+    background-color: var(--options-hover);
 }
 
 .option input{
